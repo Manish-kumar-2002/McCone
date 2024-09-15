@@ -1,0 +1,257 @@
+/* Eric Meyer's Reset */
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	outline: none;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 10px;
+}
+/*font face*/
+
+@font-face {
+    font-family: 'azo_sansregular';
+    src: url('../fonts/azosans-regular-webfont.woff') format('woff2'),
+         url('../fonts/azosans-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-size:100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.2;
+	color:#000;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+p{
+	font-family: 'azo_sansregular';
+}
+span{
+	font-family: 'azo_sansregular';
+	display: block;
+}
+body img {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;          
+}
+figure{
+	margin-bottom: 0;
+	margin: 0;
+}
+*:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/*
+ 2.0.1) Font Face
+ -----------------------------*/
+/*Put Your font face Styles here*/
+
+
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+button, input, optgroup, select, textarea {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+	background: #fff;
+	border: 1px solid #ccc;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+input,select,textarea{
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+	border-radius:0;
+}
+a{
+	color:#E8EEF7;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	
+}
+a:focus{
+	outline: none;
+	border:none;
+}
+input {
+	line-height: normal;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+	border:none;
+	outline: 0;
+}
+input[type="checkbox"], input[type="radio"] {
+	padding: 0;
+	border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="file"] {
+	-webkit-appearance: none;
+	cursor: pointer;
+	line-height: normal;
+	overflow: visible;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+	color: #999;
+	border-color: #ccc;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+    /*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (max-device-width:767px) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="tel"], input[type="url"]{ font-size: 16px !important; }
+
+}
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+ li{
+	list-style: none;
+ }
+button{
+	border:none;
+	background: transparent;
+}
+/*
+ 2.0.9) Sprite Icons
+ -------------------------*/
+ [class^="icon-"], [class*="icon-"] {
+	background-image: url("../images/sprite.png");
+	background-size: 400px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+	font-size: 0;
+} 
+/*global heading*/
+h1{
+	color: #fff;
+	font-size: 3.2rem;
+	font-family: 'Marcellus', serif;
+	margin-bottom: 26px;
+	line-height: 100%;
+}
+h2{
+	font-family: 'Marcellus', serif;
+	font-size: 2.4rem;
+	color: #11284A;
+	margin-bottom: 16px;
+}
+h3{}
+h4{
+	color: #11284A;
+	font-size: 1.6rem;
+	
+	margin-bottom: 8px;
+}
+h5{
+	color: #fff;
+	font-family: 'Marcellus', serif;
+	font-size: 2.4rem;
+	line-height: 100%;
+	margin-bottom: 14px;
+}
+h6{
+
+	font-family: 'azo_sansregular';
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 140%;
+	color: #FFFFFF;
+	margin-bottom: 8px;
+}
+/* Containers*/
+.container {
+    max-width: 1400px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    // display: flex;
+    // align-items:flex-start;
+	@include respond(large-desktop){
+		min-width: 1220px;
+        padding: 0 38px;
+
+	}
+}
+/* pixel perfection */
+// .wrapper{
+// 	opacity: 0.5;
+// }
+// @media all and (min-width: 1400px) {
+// 	body {
+// 	  background: url("../images/homepage1400.png") no-repeat top center;
+// 	  min-height: 10000px;
+// 	}
+//   }
+// @media all and (min-width: 376px) {
+//   body {
+//     background: url("../images/homepage.png") no-repeat top center;
+//     min-height: 6000px;
+//   }
+// }
+
+// @media all and (min-width: 768px) {
+//   body {
+//     background: url("../images/Tablet.png") no-repeat top center;
+//     min-height: 2000px;
+//   }
+// }
+
+// @media all and (min-width: 1190px) {
+//   body {
+//     background: url("../images/desktop.png") no-repeat top center;
+//     min-height: 2000px;
+//   }
+// } 
+
+

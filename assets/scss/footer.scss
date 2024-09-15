@@ -1,0 +1,198 @@
+.footer{
+    background-color: #11284A;
+    padding: 40px 0;
+    .footer-first{
+        width: 52%;
+        .explore{
+            margin-bottom: 15px;
+        }
+    }
+    .footer-four{
+        margin-bottom: 22px;
+        .update{
+            margin-bottom: 16px;
+        }
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    .social {
+        margin-bottom: 24px;
+        display: block;
+    }
+    span{
+        font-size: 1rem;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #85B0EE;
+    }
+    input{
+        font-family: 'azo_sansregular';
+        width: 100%;
+        padding: 15px;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #545F6F;
+        border: none;
+        margin-bottom: 8px;
+        @include respond(tablet){
+            width: 195px;
+        }
+    }
+    .social-listing li{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #FFFFFF;
+        position: relative;
+        padding-left: 26px;
+        margin-bottom: 9px;
+        transition: all 0.5s;
+        &:hover{
+            a{
+                color: #85B0EE;
+                text-decoration: underline;
+                transition: all 0.5s;
+
+            }
+            i{
+                filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+                fill: #347BE3;
+            }
+        }
+        .fb-pic{
+            background: url("../images/Facebook.svg");
+            display: inline-block;
+            width: 8px;
+            height: 12px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 8px;
+            left: 7px;
+        }
+        .twitter-pic{
+            background: url("../images\/twitter.svg");
+            display: inline-block;
+            width: 12px;
+            height: 10px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 8px;
+            left: 7px;
+        }
+        .YT-pic{
+            background: url("../images/Youtube.svg");
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 8px;
+            left: 7px;
+        }
+        .insta-pic{
+            background: url("../images/Instagram.svg");
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 8px;
+            left: 7px;
+        }
+    }
+    .footer-listing li{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 9px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    .tel,
+    .mail{
+        font-family: 'azo_sansregular';
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #FFFFFF;
+        display: block;
+    }
+    address{
+        font-family: 'azo_sansregular';
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    .contact-block{
+        margin-top: 21px;
+        margin-bottom: 33px;
+        width: 87%;
+        @include respond(tablet){
+            margin-top: 0px;
+        }
+        .contact-first{
+            // width: 52%;
+            .contact-details{
+                margin-bottom: 16px;
+            }
+        }
+        .contact-second{
+            margin-top: 30px;
+        }
+        
+    }
+    .button{
+        width: 100%;
+        position: relative;
+        font-size: 1.4rem;
+        padding: 17px;
+        margin: 0 0 19px 0;
+        span{
+            color: #fff;
+        }
+        .search-pic {
+            background: url("../images/search.svg");
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+          }
+        @include respond(tablet){
+            width: 50px;
+            height: 49px;
+            margin: 0;
+        }
+    }
+    .site-by{
+
+        p{
+            font-size: 1.2rem;
+        }
+        a{
+            font-size: 1.2rem;
+            font-family: 'azo_sansregular';
+            font-weight: 400;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+    }
+    .agree{
+        color: #85B0EE;
+        font-size: 1.2rem;
+        a{
+            color: #85B0EE;
+        font-size: 1.2rem;
+        }
+    }
+}

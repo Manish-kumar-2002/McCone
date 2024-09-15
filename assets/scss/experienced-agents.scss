@@ -1,0 +1,105 @@
+.experienced-agents{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    p{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 140%;
+        color: #545F6F;
+        margin-bottom: 20px;
+
+    }
+    figure{
+        margin-bottom: 20px;
+    }
+    .button2{
+        width: 220px;
+        box-shadow: 0px 0px 0px 1px inset #11284A;
+        color: #11284A;
+        @include respond(tablet){
+            width: 220px;
+        }
+        &:hover {
+            box-shadow: none;
+            color: #fff;
+          }
+    }
+    .contact-people{
+        a{
+        position: relative;
+
+            margin-left: 20px;
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 140%;
+            color: #11284A;
+            margin-bottom: 8px;
+        }
+    }
+
+    .people-details{
+        width: 160px;
+        @include respond(tablet){
+            width: 200px !important;
+        }
+        span{
+            font-size: 1.4rem;
+            color: #11284A;
+        }
+        p{
+            font-size: 1.2rem;
+            color: #545F6F;
+            margin-bottom: 0;
+        }
+    }
+    .people-name{
+        margin-bottom: 16px;
+    }
+    .phone-pic{
+        background: url("../images/Group.png");
+        display: inline-block;
+        width: 14px;
+        height: 17px;
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+    .whatsapp-pic{
+        background: url("../images//whatsapp\ 1.png");
+        display: inline-block;
+        width: 16px;
+        height: 17px;
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+
+    button:not(:disabled){
+        cursor: pointer;
+        font-size: 0;
+        width: 6px;
+        height: 6px;
+        background-color: #fff;
+        border:  1px solid #8F9AAA;
+        border-radius: 50%;
+        margin-right: 10px;
+        
+      }
+      .slick-dots{
+        display: flex;
+        .slick-active button{
+            background-color: #11284A;
+            border: none;
+        }
+      }
+      .slick-list{
+        margin: 0 -8px;
+        margin-bottom: 20px;
+      }
+      .slick-slide {
+       
+        & > div{
+            margin:0 8px;
+          }
+      }
+}

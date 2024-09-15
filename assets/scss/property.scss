@@ -1,0 +1,97 @@
+.property{
+    margin-top: 200px;
+    @include respond(tablet){
+        margin-top: 400px;
+    }
+    @include respond(large-desktop){
+		margin-top: 500px;
+	}
+    & figure{
+        width: 100px;
+        height: 80px;
+        position: relative;
+        .video-small{
+            position: absolute;
+            background-image: url(../images/play-button-small.png);
+            width: 36px;
+            height: 35px;
+            display: block;
+            transform: translate(-50%,-50%);
+            top: 46%;
+            left: 50%;
+            cursor: pointer;
+            @include respond(tablet){
+                top: 15%;
+                left: 90%;
+            }
+            @include respond(large-tablets){
+                top: 19%;
+                left: 81%;
+            }
+        }   
+        @include respond(tablet){
+            width: 230px;
+            height: 156px;
+        }
+        @include respond(large-tablets){
+            width: 126px;
+            height: 114px;
+            margin-right: 10px;
+            flex: none;
+        }
+        padding-bottom: 10px;
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .one{
+        width: 336px;
+        margin-bottom: 24px;
+        @include respond(tablet){
+            margin-bottom: 0px;
+            flex-direction: column;
+            width: 230px;
+            height: 291px;
+            justify-content: start !important;
+        }
+        @include respond(large-tablets){
+            margin-bottom: 24px;
+            flex-direction: row;
+            width: 310px;
+            height: 124px;
+            justify-content: space-between !important;
+        }
+
+    }
+    .property-details{
+        
+        h4{
+            @include respond(tablet){
+                font-size: 1.8rem;
+            }
+        }
+        p{
+            width: 200px;
+            font-size: 1.2rem;
+            color: #545F6F;
+            margin-bottom: 16px;
+            @include respond(tablet){
+                font-size: 1.4rem;
+                margin-bottom: 24px;
+            }
+        }
+        a{
+            color: #347BE3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

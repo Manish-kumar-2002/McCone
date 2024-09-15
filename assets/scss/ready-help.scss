@@ -1,0 +1,55 @@
+.ready-help{
+    padding-top: 48px;
+    background-color: #E8EEF7;
+    @include respond(large-tablets){
+        padding-top: 100px;
+        & .container{
+            display: flex;
+        }
+    }
+    
+    span{
+        margin-bottom: 16px;
+        font-size: 1rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #8F9AAA;
+    }
+    h2{
+        margin-bottom: 16px;
+        @include respond(tablet){
+            font-size: 4.8rem;
+        }
+    }
+    p{
+        margin-bottom: 16px;
+        font-size: 1.4rem;
+        color: #545F6F;
+        line-height: 140%;
+        @include respond(tablet){
+            font-size: 1.6rem;
+        }
+    }
+    .button2{
+        width: 100%;
+        box-shadow: 0px 0px 0px 1px inset #11284A;
+        color: #11284A;
+        @include respond(tablet){
+            width: 220px;
+        }
+        &:hover {
+            box-shadow: none;
+          }
+    }
+    .button{
+        width: 100%;
+        @include respond(tablet){
+            width: 220px;
+        }
+
+    }
+      img{
+        display: block;
+      }
+
+}

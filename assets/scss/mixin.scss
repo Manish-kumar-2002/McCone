@@ -1,0 +1,99 @@
+// Positon
+@mixin position(
+ $top: auto,
+ $right: auto,
+ $bottom: auto,
+ $left: auto,
+ $position: static
+) {
+ top: $top;
+ right: $right;
+ bottom: $bottom;
+ left: $left;
+ position: $position;
+}
+
+//  Mixin for after and before
+@mixin after($width, $height) {
+ content: "";
+ width: $width;
+ height: $height;
+}
+
+// media queries start
+$phone_width: 376px;
+$tablet_width: 768px;
+$large_tablets: 992px;
+$desktop_width: 1024px;
+$large-desktop: 1400px;
+$xxl-desktop: 1710px;
+
+@mixin respond($breakpoint) {
+ @if $breakpoint == phone {
+    @media only screen and (min-width:#{$phone_width}) {
+     @content;
+   }
+ }
+
+ @if $breakpoint == tablet {
+   @media only screen and (min-width:#{$tablet_width}) {
+     @content;
+   }
+ }
+
+ @if $breakpoint == large-tablets {
+   @media only screen and (min-width:#{$large_tablets}) {
+     @content;
+   }
+ }
+
+ @if $breakpoint == desktop {
+   @media only screen and (min-width:#{$desktop_width}) {
+     @content;
+   }
+ }
+
+ @if $breakpoint == large-desktop {
+   @media only screen and (min-width:#{$large-desktop}) {
+     @content;
+   }
+ }
+
+ @if $breakpoint == xxl-desktop {
+   @media only screen and (min-width:#{$xxl-desktop}) {
+     @content;
+   }
+ }
+}
+// media queries end
+
+// flex-property
+@mixin flex-box($jc, $fd, $fw) {
+ display: flex;
+ justify-content: $jc;
+ align-items: center;
+ flex-direction: $fd;
+ flex-wrap: $fw;
+}
+
+//button
+.button-basic {
+ text-align: center;
+ font-size: 1.6rem;
+ color: $white;
+ background-color: $red;
+ display: inline-block;
+ font-family: "eina01-bolduploaded_file";
+ font-weight: 600;
+}
+
+//circles with arrow
+.circle {
+ display: inline-block;
+ background-image: url("../images/arrow.svg");
+ background-repeat: no-repeat;
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ background-position: center;
+}

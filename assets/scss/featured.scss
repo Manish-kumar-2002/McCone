@@ -1,0 +1,96 @@
+.featured{
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+    
+    .sale{
+        width: 274px;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        span{
+            font-size: 1rem;
+            color: #347BE3;
+            font-family: 'azo_sansregular';
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:nth-child(1){
+                text-decoration: underline;
+            }
+        }
+    }
+    .property-features{
+        // width: 320px !important;
+        // height: 357px;
+        // margin-right: 86px;
+        // @include respond(tablet){
+        //     margin-right: 16px;
+        // }
+        figure{
+            margin-bottom: 17px;
+            img{
+                width: 100%;
+            }
+        }
+        span{
+            font-size: 1.6rem;
+            color: $dark-blue;
+        }
+        p{
+            font-size: 1.4rem;
+            color: #545F6F;
+        }
+        .like-details{
+            margin-top: 33px;
+            position: relative;
+            span{
+                font-size: 1.4rem;
+                color: #545F6F;
+            }
+            div{
+                display: flex;
+                align-items: center;
+            }
+            img{
+                margin-right: 10px;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                top: -15px;
+                left: 0;
+                width: 336px;
+                height: 1px;
+                background-color: #E8EEF7;;
+            }
+        }
+    }
+    button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+        cursor: pointer;
+        font-size: 0;
+        width: 6px;
+        height: 6px;
+        background-color: #fff;
+        border:  1px solid #8F9AAA;
+        border-radius: 50%;
+        margin-right: 10px;
+        
+      }
+      .slick-dots{
+        display: flex;
+        .slick-active button{
+            background-color: #11284A;
+            border: none;
+        }
+      }
+      .slick-list{
+        margin: 0 -8px;
+        margin-bottom: 20px;
+      }
+      .slick-slide {
+       
+        & > div{
+            margin:0 8px;
+          }
+      }
+}

@@ -1,0 +1,138 @@
+.experienced{
+    padding-top: 48px;
+    .button2{
+      width: 220px;
+      box-shadow: 0px 0px 0px 1px inset #11284A;
+      color: #11284A;
+      @include respond(tablet){
+          width: 220px;
+      }
+      &:hover {
+          box-shadow: none;
+          color: #fff;
+        }
+  }
+}
+
+
+.cta-DkN {
+    padding-top: 4.8rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e8eef6;
+    flex-shrink: 0;
+  }
+.cta-DkN .copy-yUe {
+    margin: 0rem 2rem 2.4rem 2rem;
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .cta-DkN .copy-yUe .text-copy-ut6 {
+    margin-bottom: 2.5rem;
+    row-gap: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .cta-DkN .copy-yUe .text-copy-ut6 .were-ready-to-help-TPp {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #8e99a9;
+    font-family: Azo Sans 2, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .cta-DkN .copy-yUe .text-copy-ut6 .lets-work-together-mvJ {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #11284a;
+    font-family: Marcellus, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+   .cta-DkN .copy-yUe .text-copy-ut6 .nullam-vestibulum-KB8 {
+    max-width: 32.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4000000272;
+    color: #545e6e;
+    font-family: Azo Sans 2, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+ .cta-DkN .copy-yUe .buttons-QCa {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .cta-DkN .copy-yUe .buttons-QCa .button-ZrA {
+    margin-bottom: 0.8rem;
+    box-sizing: border-box;
+    padding: 1.4rem 9.6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #347be3;
+    border-radius: 0.2rem;
+    flex-shrink: 0;
+  }
+   .cta-DkN .copy-yUe .buttons-QCa .button-ZrA .list-your-property-Jok {
+    margin-right: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4000000272;
+    color: #ffffff;
+    font-family: Azo Sans 2, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+   .cta-DkN .copy-yUe .buttons-QCa .button-ZrA .caretright-bH4 {
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+   .cta-DkN .copy-yUe .buttons-QCa .button-KD4 {
+    box-sizing: border-box;
+    padding: 1.4rem 11.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: solid 0.1rem #11284a;
+    border-radius: 0.2rem;
+    flex-shrink: 0;
+  }
+   .cta-DkN .copy-yUe .buttons-QCa .button-KD4 .get-in-touch-ryg {
+    margin-right: 1.9rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4000000272;
+    color: #11284a;
+    font-family: Azo Sans 2, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+   .cta-DkN .copy-yUe .buttons-QCa .button-KD4 .caretright-za6 {
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+   .cta-DkN .img-78v {
+    width: 37.6rem;
+    height: 21.1rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
